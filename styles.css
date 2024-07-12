@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #654321;
+}
+
+body, .quote-input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.name {
+    position: absolute;
+    top: 2rem;
+    font-family: 'Fira code', monospace;
+    font-size: 3rem;
+    color: #DEB887;
+    font-weight: bold;
+}
+
+.name-color {
+    color: #F5F5DC;
+}
+
+.socials {
+    position: absolute;
+    top: 6rem;
+}
+
+.school {
+    position: absolute;
+    top: 6rem;
+    font-family: 'Fira code', monospace;
+    font-size: 1.08rem;
+    color: #DEB887;
+}
+
+.jj-container img {
+    position: absolute;
+    border-radius: 5rem;
+    overflow: hidden;
+    padding: 1rem 1rem;
+    top: 2.7rem;
+    left: 1rem;
+    width: 250px;
+    height: auto;
+}
+
+.jj-container:hover img {
+    transform: scale(1.1);
+}
+
+.oreo-container img {
+    position: absolute;
+    border-radius: 5rem;
+    overflow: hidden;
+    padding: 1rem 1rem;
+    top: 2.7rem;
+    right: 1rem;
+    width: 250px;
+    height: auto;
+}
+
+.oreo-container:hover img {
+    transform: scale(1.1);
+}
+
+.container {
+    margin-top: -11.5rem;
+    background-color: #F5F5DC;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 700px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.jokeTitle {
+    margin-bottom: 0.5rem;
+    font-family: 'Fira code', monospace;
+    font-weight: bold;
+    font-size: x-large;
+    color: #3F4D1C;
+}
+
+.hi-color {
+    color: #556B2F;
+}
+
+.joke {
+    background-color: transparent;
+    border: 2px solid #654321;
+    outline: none;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    resize: none;
+    padding: 2rem 1rem;
+    font-family: 'Fira code', monospace;
+    font-size: large;
+    color: #556B2F;;
+    border-radius: .5rem;
+}
+
+.project1-container {
+    position: absolute;
+    margin-left: -29rem;
+    margin-top: 26rem;
+    background-color: #F5F5DC;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 710px;
+    max-width: 80%;
+    text-align: left;
+}
+
+.project1-name {
+    margin-bottom: 0.5rem;
+    font-family: 'Fira code', monospace;
+    font-weight: bold;
+    font-size: x-large;
+    color: #3F4D1C;
+}
+
+.language {
+    font-weight: 1000;
+    font-size: smaller;
+}
+
+.project1-info {
+    background-color: transparent;
+    border: 2px solid #654321;
+    outline: none;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    resize: none;
+    padding: 2rem 1rem;
+    font-family: 'Fira code', monospace;
+    font-size: large;
+    color: #556B2F;;
+    border-radius: .5rem;
+}
+
+.shadowMario-container img {
+    position: absolute;
+    right: 2rem;
+    top: 22.5rem;
+    width: 450px;
+    height: auto;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 1rem 1rem;
+}
+
+.shadowMario-container:hover img {
+    transform: scale(1.1);
+}
